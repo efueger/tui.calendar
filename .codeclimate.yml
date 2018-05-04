@@ -38,9 +38,9 @@ exclude_patterns:
    - "**/node_modules/"
    - script/
    - "**/spec/"
-   - "**/test/
+   - "**/test/"
    - "**/tests/"
-   - Tests/
+   - "Tests/"
    - "**/vendor/"
    - "**/*_test.go"
    - "**/*.d.ts"
