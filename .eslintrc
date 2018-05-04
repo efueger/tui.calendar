@@ -42,7 +42,7 @@
       "error",
       "consistent"
     ],
-    "import/exports-last": "error",
+    "import/exports-last": ["error"],
     "import/extensions": [
       "error",
       "ignorePackages",
