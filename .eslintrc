@@ -42,7 +42,15 @@
       "error",
       "consistent"
     ],
-   
+    "import/exports-last": "error",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+      }
+    ],
     // "import/group-exports": "error", // pending release: benmosher/eslint-plugin-import#1031
     "import/no-deprecated": "error",
     "import/no-extraneous-dependencies": "warn",
